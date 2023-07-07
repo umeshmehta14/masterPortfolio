@@ -31,6 +31,17 @@ export default function socialMedia(props) {
           </a>
         );
       })}
+      {/* <a
+        href={"https://hashnode.com/@umesh14"}
+        className={`icon-button`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconWrapper backgroundColor={"#285ff7"} {...props}>
+          <i className="fa-brands fa-hashnode"></i>
+        </IconWrapper>
+        <span></span> 
+      </a> */}
     </div>
   );
 }
